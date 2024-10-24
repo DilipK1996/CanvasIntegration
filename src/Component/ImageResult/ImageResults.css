@@ -1,0 +1,38 @@
+.image-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.image-item {
+  width: 100%;
+  max-width: 200px;
+  text-align: right;
+}
+
+.image-item img {
+  border-radius: 3px;
+  border: 1px solid #d5d5d5;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  mix-blend-mode: color-burn;
+  width: 100%;
+  height: auto;
+}
+
+.add-caption-button {
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: #d5d5d5;
+  color: #000;
+  letter-spacing: 1px;
+  border: 1px solid #000;
+}

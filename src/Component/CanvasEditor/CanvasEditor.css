@@ -1,0 +1,26 @@
+.canvas-editor {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#canvas {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-top: 30px;
+}
+
+.controls button {
+  margin-right: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 3px;
+  background-color: cornsilk;
+  color: #000;
+  letter-spacing: 1px;
+  border: 1px solid #000;
+}
